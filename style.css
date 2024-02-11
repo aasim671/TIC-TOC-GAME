@@ -1,0 +1,46 @@
+body {
+  align-items: center;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 60vmin;
+  width: 77vmin;
+  justify-content: center;
+  align-items: center;
+}
+
+.game {
+  height: 80px;
+  width: 115px;
+  margin: 3px;
+  gap: 1.5px;
+  background-color: coral;
+  font-size: 38px;
+}
+.box {
+  /* height: vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ok {
+  width: 90px;
+  font-size: 18px;
+}
+.btn1 {
+  width: 90px;
+  font-size: 14px;
+  padding: 7px;
+}
+#result {
+  font-size: 18px;
+  color: red;
+  text-shadow: 3px;
+}
+.hide {
+  display: none;
+}
